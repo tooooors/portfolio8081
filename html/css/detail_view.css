@@ -1,0 +1,199 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+.flex {
+    display: flex;
+}
+
+h2, h3 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header {
+    border-bottom: solid 1px #cccccc;
+    width: 960px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+.header-left {
+    text-align: left;
+    flex: 1;
+}
+
+
+.header-right {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.logout{
+    text-decoration: none;
+    margin: 20px;
+    color: #555555;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.logout:hover{
+    text-decoration: underline;
+}
+
+.cart_icon {
+    width: 50px;
+}
+
+.cart {
+    font-size: 11px;
+    text-align: center;
+}
+
+.user {
+    height: 70px;
+    width: 300px;
+}
+
+.user p {
+    line-height: 70px;
+    margin: 0px;
+}
+
+/* メイン */
+main {
+    width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.background_gray {
+    background-color: #f7f7f7;
+}
+
+/* 商品詳細説明 */
+.item_name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item_img, .item_info {
+    flex: 1;
+    margin: 20px;
+}
+
+.explain {
+    height: 100px;
+}
+
+.amount {
+    width: 30px;
+}
+
+/*ボタン*/
+.btn {
+  display: inline-block;
+  background-color: #f79a43;
+  width: 180px;
+  text-align: center;
+  border: 2px solid #f79a43;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #f2ae6a;
+  border-color: #f2ae6a;
+  color: #FFF;
+}
+
+/* 口コミ */
+.review {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.review_list {
+    border-top: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.review_list p {
+    text-align: left;
+}
+
+.link {
+    padding-top: 30px;
+}
+
+.reverse {
+    text-decoration: none;
+    color: #68a9f2;
+    margin: 10px;
+}
+
+.reverse:hover {
+    text-decoration: underline;
+}
+
+.font_red {
+    color: red;
+}
+
+.btn_review {
+    display: inline-block;
+    background-color: #77b32e;
+    width: 180px;
+    text-align: center;
+    border: 2px solid #77b32e;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    transition: .2s;
+    margin: 10px;
+}
+
+.btn_review:hover {
+    background-color: #88c73b;
+    border-color: #88c73b;
+    color: #FFF;
+}

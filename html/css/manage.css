@@ -1,0 +1,7 @@
+/* テーブルを格子状にする */
+tr, th, td {
+        border: solid 1px black;
+            }
+table {
+    border-collapse: collapse;
+}

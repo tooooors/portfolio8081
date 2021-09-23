@@ -1,0 +1,126 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+.flex {
+    display: flex;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header {
+    border-bottom: solid 1px #cccccc;
+    width: 960px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+.header-left {
+    text-align: left;
+    flex: 1;
+}
+
+
+.header-right {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.logout{
+    text-decoration: none;
+    margin: 20px;
+    color: #555555;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.logout:hover{
+    text-decoration: underline;
+}
+
+.user {
+    height: 70px;
+    width: 300px;
+}
+
+.user p {
+    line-height: 70px;
+    margin: 0px;
+}
+
+/* メイン */
+main {
+    width: 750px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.item_img, .item_info {
+    flex: 1;
+    margin: 10px;
+}
+
+.item_info p {
+    text-align: left;   
+}
+
+.thanks {
+    font-size: 20px;
+}
+
+.reverse {
+    text-decoration: none;
+    color: #68a9f2;
+}
+
+.reverse:hover {
+    text-decoration: underline;
+}
+
+.logout_btn {
+  display: inline-block;
+  background-color: #555555;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #555555;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+  margin: 10px;
+}
+
+.logout_btn:hover {
+  background-color: #777777;
+  border-color: #777777;
+  color: #FFF;
+}
+
+.remarks {
+    font-size: 14px;
+    margin: 0px;
+}
+

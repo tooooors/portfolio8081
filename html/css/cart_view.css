@@ -1,0 +1,185 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+h1, h2 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+.flex {
+    display: flex;
+}
+
+.font_red {
+    color: red;
+}
+
+.text_center {
+    text-align: center;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header {
+    border-bottom: solid 1px #cccccc;
+    width: 960px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+.header-left {
+    text-align: left;
+    flex: 1;
+}
+
+
+.header-right {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.logout{
+    text-decoration: none;
+    margin: 20px;
+    color: #555555;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.logout:hover{
+    text-decoration: underline;
+}
+
+.cart_icon {
+    width: 50px;
+}
+
+.cart {
+    font-size: 11px;
+    text-align: center;
+}
+
+.user {
+    height: 70px;
+    width: 300px;
+}
+
+.user p {
+    line-height: 70px;
+    margin: 0px;
+}
+
+
+/* メイン */
+main {
+    width: 750px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+/*ボタン*/
+.btn {
+  display: inline-block;
+  background-color: #f79a43;
+  width: 180px;
+  text-align: center;
+  border: 2px solid #f79a43;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.btn:hover {
+  background-color: #f2ae6a;
+  border-color: #f2ae6a;
+  color: #FFF;
+}
+
+/*カート内ボタン*/
+.cart_btn {
+  display: inline-block;
+  background-color: #666666;
+  width: 50px;
+  text-align: center;
+  border: 2px solid #666666;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.cart_btn:hover {
+  background-color: #888888;
+  border-color: #888888;
+  color: #FFF;
+}
+
+.cart_img {
+    flex: 2;
+    margin: 5px;
+}
+
+.cart_info {
+    flex: 3;
+    margin: 5px;
+}
+
+.delete {
+    flex: 1;
+    position: relative;
+    border-left: solid 1px #cccccc;
+    margin: 5px;
+}
+
+.delete_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 10px;
+}
+
+.amount {
+    width: 80px;
+    margin: 10px;
+}
+
+.reverse {
+    text-decoration: none;
+    color: #68a9f2;
+}
+
+.reverse:hover {
+    text-decoration: underline;
+}
+
+.sum {
+    font-weight: bold;
+    font-size: 19px;
+}
+

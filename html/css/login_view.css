@@ -1,0 +1,104 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    
+}
+
+.header {
+    border-bottom: solid 1px #cccccc;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.explain {
+    text-align: center;
+    padding-bottom: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.explain p {
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+.rank {
+    display: flex;
+    width: 900px;
+    padding: 0px;
+}
+
+.rank li {
+    flex: 1;
+    list-style-type: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f79a43;
+  width: 180px;
+  text-align: center;
+  border: 2px solid #f79a43;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.btn:hover {
+  background-color: #f2ae6a;
+  border-color: #f2ae6a;
+  color: #FFF;
+}
+
+input {
+    margin: 5px;
+}
+
+.login {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.login p {
+    margin-bottom: 5px;
+}
+
+.err_msg {
+    color: red;
+}
+
+.item_price {
+    text-align: right;
+    margin-top: -30px;
+}

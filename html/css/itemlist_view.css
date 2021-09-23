@@ -1,0 +1,253 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+.flex {
+    display: flex;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.font_red {
+    color: red;
+}
+
+h1, h2 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+
+/*ヘッダー*/
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header {
+    border-bottom: solid 1px #cccccc;
+    width: 960px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+.header-left {
+    text-align: left;
+    flex: 1;
+}
+
+
+.header-right {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout{
+    text-decoration: none;
+    margin: 20px;
+    color: #555555;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.logout:hover {
+    text-decoration: underline;
+    color: #555555 !important;
+}
+
+.cart_icon {
+    width: 50px;
+}
+
+.cart {
+    font-size: 11px;
+    text-align: center;
+}
+
+.user {
+    height: 70px;
+    width: 300px;
+}
+
+.user p {
+    line-height: 70px;
+    margin: 0px;
+}
+
+
+/*メイン*/
+main {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/*ボタン*/
+.btn {
+  display: inline-block;
+  background-color: #f79a43;
+  width: 180px;
+  text-align: center;
+  border: 2px solid #f79a43;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.btn:hover {
+  background-color: #f2ae6a;
+  border-color: #f2ae6a;
+  color: #FFF;
+}
+
+/*商品名*/
+.item_name{
+    color: #555555;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.item_name:hover {
+    text-decoration: underline;
+    color: #777777;
+}
+
+/*おすすめ商品*/
+.recommend {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.recommend_pic {
+    flex: 1;
+}
+
+.recommend_pic img {
+    width: 300px;
+}
+
+.recommend_info {
+    flex: 1;
+    padding: 20px;
+}
+
+/*検索*/
+.search {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.search_title {
+    background-image: url(../pic/search.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-size: 20px 20px;
+    padding-left: 30px;
+}
+
+.search_text {
+    width: 500px
+}
+
+.search_btn {
+  display: inline-block;
+  background-color: #555555;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #555555;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.search_btn:hover {
+  background-color: #777777;
+  border-color: #777777;
+  color: #FFF;
+}
+
+.search_type {
+    flex: 1;
+}
+
+.search_type p {
+    border-bottom: solid 1px #cccccc;
+    margin-right: 20px;
+}
+
+/* 検索結果 */
+.search_results {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.itemlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 280px;
+    margin: 10px;
+}
+
+.item img{
+    width: 280px;
+}
+
+
+/* BootstrapCSS修正 */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 800 !important;
+}
+
+.card {
+    position: static;
+    display: -ms-flexbox;
+    display: block !important;
+    background-clip: border-box;
+    border: none !important;
+}
+
+.card-header {
+    background-color: #ffffff;
+}

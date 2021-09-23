@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+header {
+    border-bottom: solid 1px #cccccc;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+main {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #68a9f2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

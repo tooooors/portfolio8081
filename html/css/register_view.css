@@ -1,0 +1,66 @@
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: Meiryo, "メイリオ";
+}
+
+header {
+    border-bottom: solid 1px #cccccc;
+}
+
+.logo {
+    text-align: left;
+    height: 70px;
+    
+}
+
+main {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+input {
+    margin: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f79a43;
+  width: 180px;
+  text-align: center;
+  border: 2px solid #f79a43;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.btn:hover {
+  background-color: #f2ae6a;
+  border-color: #f2ae6a;
+  color: #FFF;
+}
+
+.err_msg {
+    color: red;
+}
+
+.reverse {
+    text-decoration: none;
+    color: #68a9f2;
+    font-size: 14px;
+    margin: 10px;
+    display: block;
+}
+
+.reverse:hover {
+    text-decoration: underline;
+}
