@@ -6,7 +6,7 @@
 
 # 使用技術
 * HTML5/CSS3
-* PHP5.5
+* PHP7.3
 * Bootstrap
 * MySQL5.5
 
